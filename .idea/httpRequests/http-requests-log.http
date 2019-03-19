@@ -1,0 +1,120 @@
+GET http://localhost:8080/user
+Accept: application/json
+
+<> 2019-03-19T040119.200.json
+
+###
+
+DELETE http://localhost:8080/user/user1
+
+<> 2019-03-19T040115.200.json
+
+###
+
+GET http://localhost:8080/user
+Accept: application/json
+
+<> 2019-03-19T040110.200.json
+
+###
+
+PUT http://localhost:8080/user
+Content-Type: application/json
+
+{
+  "id": "user2",
+  "name": "박판석",
+  "email": "user222@dgdsw.hs.kr"
+}
+
+<> 2019-03-19T040104.200.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+
+{
+  "id": "user1",
+  "name": "홍길동",
+  "email": "user1@dgsw.hs.kr"
+}
+
+<> 2019-03-19T040058.200.json
+
+###
+
+GET http://localhost:8080/user/user1
+Accept: application/json
+
+<> 2019-03-19T040056.200.json
+
+###
+
+GET http://localhost:8080/user
+Accept: application/json
+
+<> 2019-03-19T040048.200.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+
+{
+  "id": "user3",
+  "name": "김철수",
+  "email": "user3@dgsw.hs.kr"
+}
+
+<> 2019-03-19T040046.200.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+
+{
+  "id": "user2",
+  "name": "박춘석",
+  "email": "user2@dgsw.hs.kr"
+}
+
+<> 2019-03-19T040044.200.json
+
+###
+
+GET http://localhost:8080/user/user1
+Accept: application/json
+
+<> 2019-03-19T040040.200.json
+
+###
+
+GET http://localhost:8080/user
+Accept: application/json
+
+<> 2019-03-19T040036.200.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+
+{
+  "id": "user1",
+  "name": "홍길동",
+  "email": "user1@dgsw.hs.kr"
+}
+
+<> 2019-03-19T040030.200.json
+
+###
+
+GET http://localhost:8080/user
+Accept: application/json
+
+<> 2019-03-19T040027.200.json
+
+###
+
